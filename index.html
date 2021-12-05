@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Web</title>
+  <!-- foundation-float.min.css: Compressed CSS with legacy Float Grid -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-float.min.css" integrity="sha256-4ldVyEvC86/kae2IBWw+eJrTiwNEbUUTmN0zkP4luL4=" crossorigin="anonymous">
+
+  <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
+
+  <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
+  <!--Estilo personalizado-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--libreria font-awesome-->
+  <li rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!--instalar fuente google-->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div clas="cookies container">
+    <div class="cookies content">
+      <p>permiso de uso de cookies para:</p>
+      <div class="cookies-pref">
+        <label><input type="check box" cheked data-funtion= "analytics">Analisis de Uso</label>
+      <label><input type="check box" cheked
+        data-funtion>Marketing</label>
+      </div>
+      <button class="cookies-save"> Guardar y continuar</button>
+    </div>
+    
+  <!-- Inicia mi header-->
+  <span class="fr">Français</span>
+  <input type="checkbox" class="check">
+  <span class="es">Espagnol</span>
+
+  <div class="hero-section">
+    <div class="hero-section-text">
+      <h1>Mexico</h1>
+      <h5>Mexico Lindo y Querido</h5>
+    </div>
+  </div>
+  <!--termina mi header-->
+  <!--inicia mi barra de navegacion-->
+  <nav class="fondo">
+    <ul class="menu align-center">
+      <li><a href="#inicio">Accueil</a></li>
+      <li><a href="#somos">Qui sommes-nous</a></li>
+      <li><a href="#servicios">Nos Prestations</a></li>
+      <li><a href="#destinos">La Région</a></li>
+      <li><a href="#reservacion">Reservations</a></li>
+      <li><a href="#contacto">Nous Contacter</a></li>
+      <ul>
+  </nav>
+  <!--termina mi barar de navegacion-->
+  <!--somos-->
+  <section id="somos" class="margen hide-for-small-only">
+    <div class="row">
+        <h2 class="text-center">Qui sommes-nous<br><Small><small></h2>
+        <div class="contenedor">
+          <img src="img/talavera.jpg" />
+          <div class="texto-encima">México Lindo ouvre ses portes avec l'idée de créer un lieu différent et spécial, offrant des environnements spécialement conçus et équipés pour rendre votre séjour à San Cristobal de las Casas aussi agréable que
+            possible, que ce soit pour une escapade d'affaires ou de loisirs.<br>
+            Le mot authentique prend tout son sens</div>
+          <div class="centrado">
+            <p class="hide-for-small-only">&nbsp;</p>
+              <li><a data-open="mision">Mision</a></li>
+              <div class="large reveal" id="mision" data-reveal>
+                <h2>Mision</h2>
+                <p>Nous sommes une petite entreprise familiale qui offre toujours un service de qualité<br> Nous avons une option d'hébergement durable, qui s'intègre parfaitement à l'environnement pour vous donner la possibilité de vous sentir chez
+                  vous, grâce à l'attention portée aux détails.</p>
+              </div>
+                <p class="hide-for-small-only">&nbsp;</p>
+                <li><a data-open="vision">Vision</a></li>
+                <div class="large reveal" id="vision" data-reveal>
+                  <h1>Vision</h1>
+                  <p>L'entreprise vise à être un leader sur le marché Feel at Home,grâce à l'innovation constante de nos services, ainsi que le développement de nos ressources humaines pour répondre aux attentes de nos clients.</p>
+                </div>
+                  <p class="hide-for-small-only">&nbsp;</p>
+                  <li><a data-open="valores">Valeurs</a></li>
+                  <div class="large reveal" id="valores" data-reveal>
+                    <h1>Valeurs</h1>
+                    <p>Nous sommes représentés par des valeurs telles que la responsabilité, l'honnêteté, la ponctualité, l'ordre, la propreté et l'amour du travail, formant ainsi une entreprise de qualité prête à vous servir.</p>
+
+                  </div>
+
+                </div>
+              </div>
+        </div>
+
+
+  </section>
+  <!--termina somos-->
+  <!--comienza servicios-->
+
+  <section id="servicios" class="margen">
+
+    <div class="row">
+      <div class="columns large-14 ">
+        <h2 class="text-center">Nos Prestations<br><Small><small></h2>
+        <h3></h3>
+        <p>&nbsp;</p>
+
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="columns large-3 small-12">
+        <div class="callout secondary">
+
+          <h3 class="text-center"><i class="fas fa-hotel"></i><br>Hébergement</h3>
+          <p>Hébergement</p>
+          <a href="#contacto" clas="button primary tiny expanded">Plus d'info</a>
+        </div>
+      </div>
+      <div class="columns large-3 small-12">
+        <div class="callout secondary">
+
+          <h3 class="text-center"><i class="fas fa-glass-cheers"></i><br>Organisation d'événements</h3>
+          <p>Organisation d'événements</p>
+          <a href="#contacto" clas="button primary tiny expanded">Plus d'info</a>
+        </div>
+      </div>
+      <div class="columns large-3 small-12">
+        <div class="callout secondary">
+          <h3 class="text-center"><i class="fas fa-hiking"></i><br>Visites sur place</h3>
+          <p>Visites sur place</p>
+          <a href="#contacto" clas="button primary tiny expanded">Plus d'info</a>
+        </div>
+      </div>
+      <div class="columns large-3 small-12">
+        <div class="callout secondary">
+
+          <h3 class="text-center"><i class="fas fa-star"></i><br>Expériences uniques</h3>
+          <p>Expériences uniques</p>
+          <a href="#contacto" clas="button primary tiny expanded">Plus d'info</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--termina servicios-->
+
+  <!--call to action-->
+  <section id="accion" class="margen fondodos">
+    <div class="row">
+      <div class="columns large-8 samall-12">
+        <h3 clas="text-rigth">Maintenant que vous savez ce que nous faisons, voyageons ensemble.</h3>
+      </div>
+      <div class="columns large-4 samall-12">
+        <p class="hide-for-small-only">&nbsp;</p>
+        <a href="#contacto" class="button">Nous Contacter</a>
+      </div>
+    </div>
+
+  </section>
+  <!--termina call to action-->
+
+  <!--inicio reserva-->
+
+  <section id="reservacion" class="margen x">
+    <div class="row">
+      <div class="columns large-12 ">
+        <h2 class="text-center">Réservations</h2>
+        <a><button data-reveal-id="myModal" data-reveal-ajax="https://form.jotform.com/211803338728356">Réservations</button></a>
+        <a href="https://form.jotform.com/211803338728356" data-reveal-id="myModal" data-reveal-ajax="true">Clic Pour une Réservations</a>
+      </div>
+  </section>
+
+  <!--termina reservas-->
+
+  <!--inicia destinos-->
+  <section id="destinos" class="margen">
+    <div class="row">
+      <div class="columns large-12">
+        <h2 class="text-center">Les Destinations<br><small>Plein de Choses à Découvrir<small></h2>
+
+      </div>
+    </div>
+    <div class="featured-image-block-grid">
+      <div class="featured-image-block-grid-header small-14 medium-12 large-8 columns text-center">
+        <h3 class="text-center"></h3>
+        <h3>Planifier une Aventure</h3>
+      </div>
+      <div class="row large-up-4 small-up-2">
+        <div class="featured-image-block column">
+          <a href="#">
+            <img src="img/catrinas.jpg" />
+            <p class="text-center featured-image-block-title"></p>
+          </a>
+          <li><a data-open="open">Le jour des Morts</a></li>
+          <div class="large reveal" id="open" data-reveal>
+            <h1>Le jour des Morts</h1>
+            <a href="#">
+              <img src="img/Catrinas-2.jpg" />
+              <p class="text-center featured-image-block-title" id="sec"></p>
+            </a>
+            <p> Dresser des autels à la mémoire des défunts<br>
+              Alors, qu’est-ce que la « fête des morts » ? Pour faire simple, c’est un peu comme si les morts revenaient chez eux pour faire la fête !
+
+              Les familles installent des autels à même le sol ou sur une table chez eux en privé, ou dans l’espace public (dans la rue, dans les boutiques, dans des salles associatives…), à la mémoire de la personne défunte.
+
+              L’autel est couvert d’une nappe ou de papier coloré, décoré sur le devant et sur les côtés, avec des papeles picados (des papiers découpés), représentant des têtes de mort ou des silhouettes de squelette.
+
+              Ces autels sont en général ornés d’une photo du disparu, d’objets lui ayant appartenu, de bougies allumées, de copal dans son encensoir et d’une coupelle d’eau bénite…
+
+              Sans oublier les fleurs, souvent des œillets d’Inde ou des soucis jaunes ou orange (des fleurs blanches pour les enfants morts sans baptême).
+
+              « Le plus grand soin est apporté à tous les aspects des préparatifs car dans l’imaginaire populaire, un mort peut attirer la prospérité (par exemple, une bonne récolte de maïs) ou le malheur (maladie, accident, difficultés financières
+              etc.) sur sa famille selon le sérieux avec lequel les rituels sont accomplis », détaille l’Unesco, qui a inscrit la Fête des morts en 2008 sur sa Liste représentative du patrimoine culturel immatériel de l’humanité.
+
+            <h2>Un festin pour les morts</h2>
+            <p>Mais ce sont surtout les victuailles qui occupent une large place dans les festivités. Les Mexicains préparent les mets préférés des défunts : des tamales (sortes de papillotes à base de farine de maïs fourrées, salées ou sucrées), des
+              moles (sauces aux piments, chocolat, oignons, cacahuètes et divers ingrédients qui accompagnent des plats de viandes), des haricots noirs, du chocolat chaud, du café épicé, des fruits… Et une petite bouteille de mezcal ou de tequila !
+
+              Les jours précédant les festivités, les boulangers et les confiseurs préparent des « calaveras » (des crânes en sucre ou en chocolat), le « pain des morts » (un pain brioché saupoudré de sucre) ou encore des citrouilles confites dans du
+              sucre de canne roux. Selon la croyance, les morts savoureront l’essence de ces mets… mais ce sont bien les vivants qui les mangeront à la fin des festivités !</p>
+
+            <h2>Un pique-nique au cimetière</h2>
+            <p>Le 2 novembre, les familles se rendent au cimetière, en traçant un chemin avec des pétales de fleurs et en allumant des bougies pour guider les âmes vers les tombes. A cette occasion, elles nettoient les tombeaux, les parent de fleurs,
+              y déposent des offrandes, avant de transformer le cimetière en aire de pique-nique : on y mange, on y danse, on y chante, on y joue la musique que le défunt aimait !</p>
+            <p>Les origines aztèques et hispaniques de la fête des morts<br>
+              Ce rituel n’est pas nouveau : les Aztèques se rendaient déjà régulièrement sur les tombes des défunts pour y laisser des offrandes. Ils célébraient aussi les morts lors de deux fêtes : Miccaihuitontli pour les enfants et, vingt jours
+              plus tard, Hueymiccalhuitl pour les adultes.
+
+              Mais l’héritage le plus flagrant qu’ils aient laissé, c’est sans doute l’omniprésence des têtes de morts et des squelettes : « Dans la pensée préhispanique la mort n’était pas une fin mais une étape du cycle mort/renaissance », souligne
+              Nathalie Ragot, enseignante à l’université Paris Diderot, dans un article sur La mort au Mexique1. « L’art précolombien abonde en représentations de crânes, d’os croisés, de divinités toutes ou en partie décharnées. Ces motifs
+              iconographiques illustrent le pouvoir de régénération et le pouvoir fécondant de la mort ».
+
+              Lors de la conquête espagnole, la foi catholique s’est imposée, apportant de nouveaux rituels aux cérémonies, comme le fait de dresser des autels avec du vin et du pain pour apaiser les âmes. Elle comportait aussi des éléments, comme
+              les danses macabres où la mort frappait sans distinction sociale, qui ont été assimilés par les indigènes.
+            <p>
+
+            <h2>Naissance des calaveras et de Catrina</h2>
+            <p>Cette imagerie a été reprise au tournant du XIXe siècle par deux célèbres caricaturistes, Manuel Manilla et José Guadalupe Posada, qui ont inventé les calaveras : il s’agit de ces têtes de morts humoristiques qui ressemblent
+              étrangement
+              à des humains. Ils ont ainsi croqué toute la société mexicaine sous forme de squelette : les religieux, les militaires, les bourgeois, les indigènes…
+
+              Le personnage de Catrina, squelette d’une dame de la haute société, vêtue de riches habits et portant généralement un chapeau, est ainsi vite devenu emblématique de la Fête des morts.
+
+              Ce personnage en papier mâché coloré à été créé en 1912 par l’artiste mexicain José Guadalupe Posada. Il est devenu au cours du XXème siècle, un des symboles du jour des morts et même une icône de la culture mexicaine. Les Mexicains
+              aiment se déguiser et incarner ce personnage symbolique le jour de la fête des morts.
+
+              Souhaitant représenter la mort à la haute société, le caricaturiste a choisit de peindre le buste d’un squelette de vieille dame, habillé élégamment et coiffée d’un chapeau ornée de plumes d’autruches. Le squelette porte à la base le
+              nom de « Calavera Garbancera ». Il faudra attendre la peinture de Diego Rivera « Rêve d’un dimanche après-midi dans le parc Alameda » pour qu’elle soit nommée « Catrina ».</p>
+          </div>
+        </div>
+
+        <div class="featured-image-block column">
+          <a href="#">
+            <img src="img/allende.jpg" />
+            <p class="text-center featured-image-block-title"></p>
+          </a>
+          <li><a data-open="open1">San Miguel de Allende</a></li>
+          <div class="large reveal" id="open1" data-reveal>
+            <h1>San Miguel de Allende</h1>
+
+            <a href="#">
+              <img src="img/sallende.jpg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+            <p>San Miguel de Allende est une ville de l’Etat mexicain de Guanajuato.<br>
+            <p>Elle fait partie de la macrorégion du Bajío.<br>
+            <p>Elle est le chef de la municipalité du même nom et l’une des principales destinations touristiques du Mexique.</p>
+            <p> La ville est située à 1910 m d’altitude, à 274 km de Mexico, à 97 km de Guanajuato, à 157 km de Leon et à 70 km de Santiago de Queretaro.<br> San Miguel de Allende a un climat frais qui peut varier de 14ºC à 20ºC dans ses zones les
+              plus chaudes.</p>
+            <p>San Miguel a été déclarée ville magique, et ce titre a été retiré en 2008 parce que, le 7 juillet 2008, l’UNESCO l’a inscrite au patrimoine culturel de l’Humanité, sous le titre de Villa Protectora de San Miguel y Sanctuario de Jesus
+              Nazareno de Atotonilco, en raison de son apport culturel et architectural au baroque mexicain et de son importance dans la lutte en faveur de l’indépendance.</p>
+          </div>
+        </div>
+        <div class="featured-image-block column">
+          <a href="#">
+            <img src="img/posadas.jpg" />
+            <p class="text-center featured-image-block-title">
+              <p>
+          </a>
+          <li><a data-open="open2">Posadas</a></li>
+          <div class="large reveal" id="open2" data-reveal>
+            <h1>Posadas</h1>
+            <a href="#">
+              <img src="img/posada-2.jpg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+            <p>Littéralement, ce terme signifie "auberge", en espagnol (sans jeu de mots ici !).<br> A l'origine, les posadas se déroulent du 16 au 24 décembre. Ce sont les 9 soirées pendant lesquelles Marie et Joseph voyagent de Nazareth pour se
+              rendre à Bethléem, en tant que pèlerins. Dans chaque ville étape, ils se faisaient héberger et nourrir par qui voulait bien...<br>
+
+              Le 24 au soir, tout le monde sait ce qu'il s'est passé !<br>
+
+              Les posadas et surtout la tradition qui tourne autour, étant catholique, est très importante aux yeux des Mexicains.<br> A tel point que certains, pratiquent encore ces visites, dans la vie courante, à leurs voisins, pendant une
+              semaine, voire plus. C'est une occasion rêvée de "faire la fête". Prévoyez de remplir votre réfrigérateur, au cas où ... c'est culturel dans votre pays d'expatriation !<br>
+
+              La période des posadas se finalise par la destruction des piñatas par les enfants.<br> Les adultes les suspendent généralement au milieu d'un espace vide et les enfants, le soir du réveillon de Noël, la battent jusqu'à la rompre,
+              faisant tomber les bonbons.</p>
+            <a href="#">
+              <img src="img/pinata.jpg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+            <h2>Que sont les piñatas?</h2>
+            <p>La piñata traditionnelle est composée d'une partie centrale, qui, concrètement, est un petit vase rond, représentant la Terre et toute sa richesse naturelle.<br> Autour, les 7 picots qui en partent, symbolisent les mauvaises actions
+              des hommes sur cette planète, à savoir, les 7 péchés capitaux.<br> Les picots sont colorés pour séduire, amuser, appâter, comme tout ce qui persuade l'Homme de pécher. Seuls les êtres humains empreints de vertus pourront en finir avec
+              ces maux. C'est le bâton, porté par un enfant, avec toutes ses vertus, qui en vient à bout.<br> La piñata ainsi rompue, laisse s'échapper du Monde, les "bonnes actions" (représentées par des sucreries : logique !)</p>
+
+          </div>
+
+        </div>
+        <div class="featured-image-block column">
+          <a href="#">
+            <img src="img/chiapas.jpg" />
+            <p class="text-center featured-image-block-title"></p>
+          </a>
+          <li><a data-open="open4">Chiapas</a></li>
+          <div class="large reveal" id="open4" data-reveal>
+            <h1>Chiapas</h1>
+
+            <h2>L’incroyable cité de Palenque</h2>
+            <a href="#">
+              <img src="img/palenque.jpg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+            <p>C’est une cité maya qui se situe dans l’état mexicain du Chiapas, près du fleuve Usumacinta. C’est l’un des sites les plus impressionnants de cette culture.<br> Comparée aux autres cités mayas, elle est de taille moyenne : bien plus
+              petite que Tikal ou Copán, elle se distingue néanmoins par son patrimoine architectural et sculptural.
+
+              Adossée à une jungle épaisse, au pied des montagnes du Chiapas, face à la plaine du Tabasco qui se déroule à ses pieds en pente douce, Palenque (« entourée d’arbres ») est l’une des plus grandes cités mayas du Mexique.</p>
+
+            <h2>La ville de San Cristobal de las Casas</h2>
+            <a href="#">
+              <img src="img/scristobal.jpeg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+
+            <p>Située au cœur du Chiapas, à 2300 m d’altitude, dans une petite cuvette entourée de montagnes verdoyantes, San Cristobal de las Casas bénéficie d’un climat frais.<br> C’est une ville très colorée : les façades des maisons sont peintes
+              de couleurs vives, les portes sont souvent sculptées et les Indiens portent des habits colorés. Fondée en 1528, elle doit son nom au dominicain Bartolomé de Las Casas, qui défendit les Indiens contre les excès des colons.</p>
+
+            <p>Aux premières heures de l’année 1994, la ville de San Cristóbal de las Casas a fait la une des rédactions lorsqu’une petite bande de guérilleros en a pris durant une trentaine d’heures le contrôle par les armes.<br> L’Armée zapatiste
+              de libération nationale (EZLN) a depuis délaissé l’action militaire pour lui substituer une campagne de propagande beaucoup plus efficace.</p>
+            <p>Dominant le Zocalo, la cathédrale, d’inspiration baroque, possède une façade très colorée ; ses couleurs originales, restituées en 1993, lui donnent son aspect de huipil architectural : son tissu donne les couleurs dominantes (ocre
+              jaune de la terre de Chamula et ocre rouge de celle de Cuxtitali), les « broderies » blanches sont rendues par le stuc (chaux, sable et blanc d’œuf) et ressortent grâce à deux panneaux et deux colonnes noirs (laine de Chamula).<br>
+
+              Au nord de la ville, l’église Santo Domingo possède une belle façade rosâtre très ornée et superbement illuminée le soir ; son intérieur littéralement tapissé de l’or, de l’argent et des peintures de ses retables en fait l’une des plus
+              jolies églises du Mexique ; attenant à l’église, le couvent abrite un musée d’histoire régional et un cloître.</p>
+            <h2>le Canyon del Sumidero</h2>
+            <a href="#">
+              <img src="img/canon.jpeg" />
+              <p class="text-center featured-image-block-title"></p>
+            </a>
+            <p>À deux heures de route de San Cristobal, tout près de la ville de Tuxtla Gutiérrez (altitude 532 m), le canyon del Sumidero s’enfonce entre des parois hautes de plus de 1000 m.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--termina Portafolio-->
+
+  <!--comienza contacto-->
+  <section id="contacto" class="margen">
+    <div class="row">
+      <div class="columns large-12">
+        <h2 class="text-center">Nous Contacter<br><Small>Nos coordonnées<small></h2>
+      </div>
+      <div class="columns large-6 samll-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15283.460977186705!2d-92.64708134098449!3d16.733574260924705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed453e5b0cc6e9%3A0xaedd9c09ab8cb55c!2sMercado%20de%20Dulces%20y%20Artesan%C3%ADas%20%C3%81mbar!5e0!3m2!1ses-419!2sch!4v1622975636894!5m2!1ses-419!2sch"
+          width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <table>
+          <tbody><br>
+            <tr>
+              <th>Adresse</th>
+              <th>Av Insurgentes 24, Sta Lucia, 29250 San Cristóbal de las Casas, Chis., México</th>
+            </tr>
+            <tr>
+              <th>Téléphone</th>
+              <th>+506 6008 5495</th>
+            </tr>
+            <tr>
+              <th>E-mail</th>
+              <th><a href="mailto:ontact@mexicolindo.com">contact@mexicolindo.com</ac>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="columns large-6 small-12">
+        <form class="action"="index.html" method="post">
+          <label for="nombre">Nom et Premon*</label>
+          <input type="text" name="nombre" value="" placeholder="Nombre" required>
+          <label for="correo">E-mail*</label>
+          <input type="email" name="correo" value="" placeholder="Correo" required>
+          <label for="tel">Téléphone</label>
+          <input type="tel" name="tel" value="" placeholder="Telefono">
+          <label for="mensaje">Menssage:</label>
+          <textarea name="mensaje" rows="4" cols="80" placeholder="Escribe tu Mensaje" required></textarea>
+          <hr>
+          <div class="expanded button-group">
+            <button type"reset" name="button" class="button">Supprimer</button>
+            <button type"submit" name="button" class="button">Envoyer</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+    </div>
+
+  </section>
+
+  <!--termina contacto-->
+  <!--footer-->
+  <section id="footer" class="margen">
+    <div class="row">
+      <div class="columns large-4 small-12">
+        <ul class="menu">
+          <li><a href="#">My Page 2022, Certains Droits Réservés</li>
+        </ul>
+      </div>
+      <div class="columns large-6 small-12">
+        <ul class="menu align-center">
+          <li><a href="#">Conditions Générales</a></li>
+          <li><a data-open="aviso">Avis de confidentialité</a></li>
+        </ul>
+      </div>
+      <div class="columns large-2 small-6">
+        <ul class="menu align-center">
+          <div>
+            <a href="#"><span>Facebook</span></a>
+            <a href="#"><span>Twitter</span></a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--termina footer-->
+  <!--Aviso de privacidad-->
+  <div class="large reveal" id="aviso" data-reveal>
+    <h1>Avis de confidentialité</h1>
+    <h3>Politique de confidentialité</h3>
+    <p>Dernière mise à jour : 22 juin 2021</p>
+    <p>La présente Politique de confidentialité décrit Nos politiques et procédures en matière de collecte, d'utilisation et de divulgation de Vos informations lorsque Vous utilisez le Service et vous informe de Vos droits en matière de
+      confidentialité et de la manière dont la loi vous protège.</p>
+    <p>.
+    <p>Nous utilisons vos données personnelles pour fournir et améliorer le Service. En utilisant le Service, vous acceptez la collecte et l'utilisation des informations conformément à la présente Politique de confidentialité.</p>
+    <p>.
+    <ul>
+      <li>
+        <p><strong>Compte</strong> désigne un compte unique créé pour vous afin d'accéder à notre service ou à certaines parties de notre service.</p>
+      </li>
+      <li>
+        </p><strong>Les cookies</strong> sont de petits fichiers placés sur votre ordinateur, votre appareil mobile ou tout autre appareil par un site web, contenant les détails de votre historique de navigation sur ce site web parmi ses nombreuses
+        utilisations.</p>
+        <p>.
+      </li>
+      <li>
+        <p><strong>Pays</strong> fait référence à: Mexique</p>
+      </li>
+      <li>
+        <p><strong>Appareil</strong> désigne tout appareil pouvant accéder au Service tel qu'un ordinateur, un téléphone portable ou une tablette numérique.</p>
+      </li>
+      <li>
+        <p><strong>Données personnelles</strong> désigne toute information qui se rapporte à une personne physique identifiée ou identifiable.</p>
+      </li>
+      <li>
+        </p><strong>Service</strong> fait référence au site web.</p>
+        <p>.
+      </li>
+      <li>
+        </p><strong>Données d'utilisation</strong> désigne les données collectées automatiquement, soit générées par l'utilisation du Service, soit provenant de l'infrastructure du Service elle-même (par exemple, la durée de la visite d'une page).
+        </p>
+        <p>.
+      </li>
+      <li>
+        <p><strong>Site web</strong> fait référence à Mon Web, accessible à partir de <a href="file:///C:/Users/diaca/OneDrive/Escritorio/landing-diaca/index.html" rel="external nofollow noopener"
+            target="_blank">file:///C:/Users/diaca/OneDrive/Escritorio/landing-diaca/index.html</a></p>.
+      </li>
+      <li>
+        <p><strong>Vous</strong> désigne la personne physique qui accède ou utilise le Service, ou la société, ou toute autre entité juridique au nom de laquelle cette personne physique accède ou utilise le Service, selon le cas.</p>
+        <p>.
+      </li>
+    </ul>
+    <h3>Collecte et utilisation de vos données personnelles</h3>
+    <h3>Types de données collectées</h3>
+    <p>Données personnelles</p>
+    <p>Lorsque vous utilisez notre service, nous pouvons vous demander de nous fournir certaines informations personnellement identifiables qui peuvent être utilisées pour vous contacter ou vous identifier. Les informations personnellement
+      identifiables peuvent inclure, mais ne sont pas limitées à :</p>
+    <ul>
+      <li>
+        <p>Adresse électronique</p>
+      </li>
+      <li>
+        <p>Prénom et nom de famille</p>
+      </li>
+      <li>
+        <p>Numéro de téléphone</p>
+      </li>
+      <li>
+        <p>Adresse, État, province, code postal, ville</p>
+        <p>.
+      </li>
+      <li>
+        <p>Données d'utilisation</p>
+      </li>
+    </ul>
+    <h3>Données d'utilisation</h3>
+    <p>Les Données d'utilisation sont collectées automatiquement lors de l'utilisation du Service.</p>
+    <p>.
+    </p>
+    <p>Les Données d'utilisation peuvent inclure des informations telles que l'adresse de protocole Internet (par exemple, l'adresse IP) de votre Appareil, le type de navigateur, la version du navigateur, les pages de notre Service que vous visitez,
+      l'heure et la date de votre visite, le temps passé sur ces pages, les identifiants uniques de l'appareil et d'autres données de diagnostic.</p>
+    <p>.
+    </p>
+    <p>Lorsque vous accédez au Service par ou via un appareil mobile, nous pouvons collecter certaines informations automatiquement, y compris, mais sans s'y limiter, le type d'appareil mobile que vous utilisez, l'identifiant unique de votre appareil
+      mobile, l'adresse IP de votre appareil mobile, votre système d'exploitation mobile, le type de navigateur Internet mobile que vous utilisez, les identifiants uniques de l'appareil et d'autres données de diagnostic.</p>
+    <p>.
+    </p>
+    <p>Nous pouvons également collecter les informations que votre navigateur envoie chaque fois que vous visitez notre service ou lorsque vous accédez au service par ou via un appareil mobile.</p>
+    <h3>Technologies de suivi et cookies</h3>
+    <p>Nous utilisons des Cookies et des technologies de suivi similaires pour suivre l'activité sur notre Service et stocker certaines informations. Les technologies de suivi utilisées sont des balises, des tags et des scripts pour collecter et
+      suivre des informations et pour améliorer et analyser Notre Service. Les technologies que Nous utilisons peuvent inclure :</p>
+    <ul>
+      <p>Les cookies peuvent être des cookies &quot;persistants&quot ; ou des cookies &quot;de session&quot ;. Les Cookies persistants restent sur votre ordinateur personnel ou votre appareil mobile lorsque vous vous déconnectez, tandis que les
+        Cookies de session sont supprimés dès que vous fermez votre navigateur web. En savoir plus sur les cookies : <a href="https://www.privacypolicies.com/blog/cookies/" target="_blank">Qu'est-ce que les cookies ? </a>.</p>
+      </p> Nous utilisons à la fois des cookies de session et des cookies persistants aux fins énoncées ci-dessous :</p>
+      <ul>
+        <li>
+          <p><strong>Cookies nécessaires / essentiels</strong></p>.
+          <p>Type : Cookies de session</p>
+          <p>Administrés par : Nous</p>
+          </p>
+          <p>Objectif : Ces Cookies sont essentiels pour Vous fournir les services disponibles sur le Site Internet et pour Vous permettre d'utiliser certaines de ses fonctionnalités. Ils contribuent à authentifier les utilisateurs et à empêcher
+            l'utilisation frauduleuse des comptes d'utilisateurs. Sans ces Cookies, les services que Vous avez demandés ne peuvent pas être fournis, et Nous utilisons ces Cookies uniquement pour Vous fournir ces services.</p>
+          <p>.
+        </li>
+        <li>
+          <p><strong>Politique des cookies / Cookies d'acceptation de l'avis</strong></p>
+          <p>.
+          <p>Type : Cookies persistants</p>
+          <p>.
+          <p>Administrés par : Nous</p>
+          </p>
+          <p>Objectif : Ces cookies identifient si les utilisateurs ont accepté l'utilisation de cookies sur le site Web.</p>
+          <p>.
+        </li>
+        <li>
+          <p><strong>Cookies de fonctionnalité</strong></p>
+          <p>.
+          <p>Type : Cookies persistants</p>
+          <p>.
+          <p>Administrés par : Nous</p>
+          <p>
+          </p>
+          <p>Objectif : Ces Cookies nous permettent de mémoriser les choix que Vous faites lorsque Vous utilisez le Site Internet, comme la mémorisation de vos données de connexion ou de votre préférence linguistique. L'objectif de ces Cookies est de
+            Vous fournir une expérience plus personnelle et de Vous éviter de devoir saisir à nouveau vos préférences chaque fois que Vous utilisez le Site Internet.</p>
+          <p>.
+        </li>
+      </ul>
+      </p>
+      <p>Pour plus d'informations sur les cookies que nous utilisons et sur vos choix en matière de cookies, veuillez consulter notre Politique en matière de cookies ou la section Cookies de notre Politique de confidentialité.</p>
+      <p>.
+      <h2>Utilisation de vos données personnelles</h2>
+      <p>La société peut utiliser les données personnelles aux fins suivantes :</p>
+      <ul>
+        <li>
+          <p><strong>Pour fournir et maintenir notre Service</strong>, y compris pour surveiller l'utilisation de notre Service.</p>
+        </li>
+        <li>
+          <p><strong>Pour gérer votre compte :</strong> pour gérer votre inscription en tant qu'utilisateur du Service. Les Données personnelles que vous fournissez peuvent vous donner accès à différentes fonctionnalités du Service qui vous sont
+            accessibles en tant qu'utilisateur enregistré.</p>
+          <p>.
+        </li>
+        <li>
+          <p><strong>Pour l'exécution d'un contrat :</strong> l'élaboration, le respect et l'engagement du contrat d'achat des produits, articles ou services que Vous avez achetés ou de tout autre contrat avec Nous par le biais du Service.</p>
+        </li>
+        <li>
+          </p><strong>Vous contacter :</strong> Vous contacter par courrier électronique, appels téléphoniques, SMS, ou autres formes équivalentes de communication électronique, telles que les notifications push d'une application mobile concernant
+          les mises à jour ou les communications informatives liées aux fonctionnalités, produits ou services contractés, y compris les mises à jour de sécurité, lorsque cela est nécessaire ou raisonnable pour leur mise en œuvre.</p>
+          <p>
+        </li>
+        <li>
+          <p><strong>Pour vous fournir</strong> des nouvelles, des offres spéciales et des informations générales sur d'autres biens, services et événements que nous proposons et qui sont similaires à ceux que vous avez déjà achetés ou sur lesquels
+            vous vous êtes renseigné, à moins que vous n'ayez choisi de ne pas recevoir de telles informations.</p>
+        </li>
+        <li>
+          <p><strong>Gérer vos demandes :</strong> Assister et gérer les demandes que vous nous adressez.</p>
+        </li>
+        <li>
+          </p><strong>Pour les transferts d'entreprise:</strong>Nous pouvons utiliser Vos informations pour évaluer ou réaliser une fusion, une cession, une restructuration, une réorganisation, une dissolution ou toute autre vente ou transfert de
+          tout ou partie de Nos actifs, que ce soit dans le cadre d'une poursuite d'activité ou d'une faillite, d'une liquidation ou d'une procédure similaire, dans laquelle les Données personnelles que Nous détenons sur les utilisateurs de nos
+          Services font partie des actifs transférés.</p>
+        </li>
+        <li>
+          <p><strong>À d'autres fins</strong> : Nous pouvons utiliser Vos informations à d'autres fins, telles que l'analyse des données, l'identification des tendances d'utilisation, la détermination de l'efficacité de nos campagnes promotionnelles
+            et l'évaluation et l'amélioration de notre Service, de nos produits, de nos services, de notre marketing et de votre expérience.</p>
+          <p>Nous pouvons partager vos informations personnelles dans les situations suivantes:</p>
+          <ul>
+            <li><strong>Avec les fournisseurs de services:</strong> Nous pouvons partager vos informations personnelles avec les fournisseurs de services pour surveiller et analyser l'utilisation de notre service, pour vous contacter.</li>
+            <li><strong>Pour les transferts d'entreprise:</strong> Nous pouvons partager ou transférer vos informations personnelles dans le cadre ou pendant les négociations de toute fusion, vente d'actifs de la Société, financement ou acquisition
+              de tout ou partie de notre activité à une autre société.</li>
+            <li><strong>Avec les sociétés affiliées:</strong> Nous pouvons partager Vos informations avec Nos sociétés affiliées, auquel cas nous exigerons de ces sociétés affiliées qu'elles honorent cette politique de confidentialité. Les sociétés
+              affiliées comprennent Notre société mère et toute autre filiale, partenaire de coentreprise ou autre société que Nous contrôlons ou qui est sous contrôle commun avec Nous.</li>.
+
+            <li><strong>Avec des partenaires commerciaux:</strong> Nous pouvons partager vos informations avec nos partenaires commerciaux pour vous offrir certains produits, services ou promotions.</li>
+            <li><strong>Avec d'autres utilisateurs:</strong> lorsque Vous partagez des informations personnelles ou interagissez autrement dans les zones publiques avec d'autres utilisateurs, ces informations peuvent être vues par tous les
+              utilisateurs et peuvent être diffusées publiquement à l'extérieur.</li>
+            <li><strong>Avec votre consentement</strong> : Nous pouvons divulguer vos informations personnelles à toute autre fin avec votre consentement.</li>
+          </ul>
+          <h2>Retenue de vos données personnelles</h2>
+          </p>
+          <p>La société ne conservera vos données personnelles que pendant la durée nécessaire aux fins énoncées dans la présente politique de confidentialité. Nous conserverons et utiliserons vos Données personnelles dans la mesure où cela est
+            nécessaire pour nous conformer à nos obligations légales (par exemple, si nous sommes tenus de conserver vos données pour nous conformer aux lois applicables), résoudre les litiges et appliquer nos accords juridiques et nos politiques.
+          </p>
+          <p>.
+          </p>
+          <p>La société conservera également les données d'utilisation à des fins d'analyse interne. Les Données d'utilisation sont généralement conservées pendant une période plus courte, sauf si ces données sont utilisées pour renforcer la sécurité
+            ou améliorer la fonctionnalité de Notre Service, ou si Nous sommes légalement obligés de conserver ces données pendant des périodes plus longues.</p>
+          <p>
+          <h2>Transfert de vos données personnelles</h2>
+          </p>
+          <p>Vos informations, y compris les Données personnelles, sont traitées dans les bureaux d'exploitation de la Société et dans tout autre lieu où se trouvent les parties impliquées dans le traitement. Cela signifie que ces informations
+            peuvent être transférées vers - et conservées sur - des ordinateurs situés en dehors de Votre État, province, pays ou autre juridiction gouvernementale où les lois sur la protection des données peuvent différer de celles de Votre
+            juridiction.</p>
+          <p>Votre consentement à la présente politique de confidentialité suivi de votre soumission de ces informations représente votre accord à ce transfert.</p>
+          <p>La Société s'engage à ne pas divulguer ces informations à des tiers.</p>
+          <p>La Société prendra toutes les mesures raisonnablement nécessaires pour s'assurer que Vos données sont traitées en toute sécurité et conformément à la présente politique de confidentialité et aucun transfert de Vos données personnelles
+            n'aura lieu vers une organisation ou un pays à moins qu'il n'existe des contrôles adéquats en place, y compris la sécurité de Vos données et autres informations personnelles.</p>
+          <h2>Divulgation de vos données personnelles</h2>
+          <h3>Transactions commerciales</h3>
+          <p>Si la Société est impliquée dans une fusion, une acquisition ou une vente d'actifs, Vos Données personnelles peuvent être transférées. Nous fournirons un avis avant que Vos Données personnelles ne soient transférées et ne soient soumises
+            à une politique de confidentialité différente.</p>
+          <h3>Application de la loi</h3>
+          <p>Dans certaines circonstances, la Société peut être tenue de divulguer Vos Données personnelles si la loi l'exige ou en réponse à des demandes valables des autorités publiques (par exemple, un tribunal ou une agence gouvernementale).</p>
+          <h3>Autres exigences légales</h3>
+          </p>
+          <p>La Société peut divulguer vos données personnelles en croyant de bonne foi qu'une telle action est nécessaire pour :</p>
+          <ul>
+            <li>Se conformer à une obligation légale</li>.
+            <li>Protéger et défendre les droits ou la propriété de la Société</li>.
+            <li>Prévenir ou enquêter sur d'éventuels actes répréhensibles en rapport avec le service</li>.
+            <li>Protéger la sécurité personnelle des utilisateurs du Service ou du public</li>.
+            <li>Protéger contre la responsabilité juridique</li>.
+          </ul>
+          <h2>Sécurité de vos données personnelles</h2>
+          <p>La sécurité de Vos Données Personnelles est importante pour Nous, mais n'oubliez pas qu'aucune méthode de transmission sur Internet, ou méthode de stockage électronique n'est sûre à 100%. Bien que Nous nous efforcions d'utiliser des
+            moyens commercialement acceptables pour protéger Vos Données Personnelles, Nous ne pouvons pas garantir leur sécurité absolue.</p>
+          <p>
+          <h3>Vie privée des enfants</h3>
+          <p>Notre service ne s'adresse pas aux personnes âgées de moins de 13 ans. Nous ne collectons pas sciemment d'informations personnellement identifiables auprès de personnes âgées de moins de 13 ans. Si Vous êtes un parent ou un tuteur et que
+            Vous avez connaissance que Votre enfant Nous a fourni des Données personnelles, veuillez Nous contacter. Si Nous nous rendons compte que Nous avons collecté des Données personnelles de toute personne âgée de moins de 13 ans sans
+            vérification du consentement parental, Nous prenons des mesures pour supprimer ces informations de Nos serveurs.</p>
+          <p>Si Nous devons nous appuyer sur le consentement comme base juridique pour traiter vos informations et que votre pays exige le consentement d'un parent, Nous pouvons demander le consentement de votre parent avant de collecter et
+            d'utiliser ces informations.</p>
+          <h3>Liens vers d'autres sites web</h3>
+          <p>Notre service peut contenir des liens vers d'autres sites web qui ne sont pas exploités par Nous. Si Vous cliquez sur un lien tiers, Vous serez dirigé vers le site de ce tiers. Nous vous conseillons vivement de consulter la politique de
+            confidentialité de chaque site que vous visitez.</p>
+          <p>Nous n'avons aucun contrôle et n'assumons aucune responsabilité quant au contenu, aux politiques de confidentialité ou aux pratiques des sites ou services tiers.</p>
+          <h3>Modifications de la présente politique de confidentialité</h3>
+          <p>Nous pouvons mettre à jour notre politique de confidentialité de temps à autre. Nous vous informerons de toute modification en publiant la nouvelle politique de confidentialité sur cette page.</p>
+          <h3>Nous contacter</h3>
+          <p>Si vous avez des questions sur cette politique de confidentialité, Vous pouvez nous contacter :</p>
+          <ul>
+            <li>
+              <p>Par courriel : contact@mexicolindo.com</p>
+            </li>
+            <li>
+              <p>Par téléphone : 506.6257.9002</p>.
+            </li>
+          </ul>
+      </ul>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+  </div>
+  <!--termina aviso de privacidad-->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js' integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,280 @@
+
+.cookies-container{
+  color: #222;
+  font-family: -apple-system, blinkMacSystemFont,'seoge Ui', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-sans-serif;
+  position: fixed;
+  width: 100%;
+  bottom: 2 rem;
+  z-index: 1000;
+}
+.cokies-content{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  background: black;
+  max-width: 100px;
+  bord-radius:2px;
+  padding: 1rem;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr auto;
+gap: 0.5rem;
+opacity: 0;
+transform: translateY(1rem);
+animation: slideUp 0.5s forwards;
+}
+.cookies-save{
+grid-column: 2;
+grid-row: 1/3;
+font-family: -apple-system, blinkMacSystemFont,'seoge Ui', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-sans-serif;
+background: #007cf8;
+color: white;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+padding: 0.8rem 1rem;
+font-size: 1rem;
+}
+@keyframes slideUp {
+  to{
+    transform: initial;
+    opacity: initial;
+  }
+
+}
+.ejemplo {}
+.en{
+  color: #333;
+}
+.es{
+  color:# 000a1;
+}
+ .fr{
+   color: #000a1;
+ }
+.check{
+  position:relative;
+  width: 65px;
+}
+.check:before{
+  content:'';
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  background: #7F0800;
+  border-radius:15px;
+}
+.check:after{
+  content: '';
+  position: absolute;
+  width: 60px
+  height: 40px;
+  background: #fff;
+  border-radius: 20px;
+  transition: 0.25s;
+  border: 0.5px solid #7F0800;
+  box-sizing: border-border-box;
+}
+.check:checked::after{
+  left:90px;
+  border: 0.5px solid #00a1ff;
+}
+ .check:checked::before{
+     left: 27px;
+   background: #00a1ff;
+ }
+
+.fondo {
+  background-color: #000;
+}
+
+.fondo a {
+  color: #fff;
+}
+
+.fondo a:hover {
+  color: #f2ac3d;
+}
+
+.ajuste {
+  margin-top: 50px;
+  font-size: small;
+}
+
+.margen {
+  margin-top:
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  .ajuste {
+    margin-top: 15px;
+    font-size: small;
+  }
+}
+
+.margen {
+  margin-top: 100px;
+}
+
+.fondodos {
+  background-color: white;
+  background: url('../img/mex.jpg')fixed;
+  padding: 50px 0;
+  color:white;
+}
+img{
+  margin-right: auto;
+}
+# accion {
+  color: white;
+  font-size: large;
+}
+/*small only*/
+@medi screen and (max-width:39.9375em){
+  .menu a{
+    font-size: small;
+  }
+}
+
+
+.somos{
+  background-color: white;
+  background: url("../img/talavera.jpg");
+  image-orientation:center;
+  size:xx small;
+}
+.somo .somos-texto{
+align-content: center;
+
+}
+.contenedor{
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color:black;
+    text-align:center;
+    font-size: x-large;
+    background-color: white;
+}
+.centrado{
+    position: absolute;
+    top: 20%;
+    right: 100%;
+  color: white;
+  font-size:x-large;
+   color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+.open .open-text {
+  text-align: right;
+  text-decoration-color: white;
+  font-size-adjust: large;
+}
+.open{
+  font-size: large;
+}
+.sec{
+  font-size: large;
+
+}
+.x{
+  margin-top: 80px;
+  font-size: medium;
+  align-content: center;
+  color: inherit;
+}
+.myModal-tex{
+  text-align: center;
+  background-position: center;
+  font-size:medium;
+}
+.accion-text{
+  font size:x-large;
+ color:white;
+}
+/* Hero*/
+.hero-section {
+  background: url("../img/mexico.jpg")fixed 10% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#footer {
+font-size: Small;
+background-color: black;
+color: grey;
+}
+#footer a{
+  color:white;
+}
+h1,h2,h3{
+font-family: 'Cormorant Unicase', serif;
+}
+/*small only*/
+@medi screen and (max-width:39.9375em) .hero-sectio. {
+  height: 30vh;
+}
+
+.hero-section .hero-section-text {
+  color: #fefefe;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
+
+/* termina Hero*/
+/*portafolio*/
+.featured-image-block-grid-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured-image-block {
+  margin-bottom: 30px;
+
+  .featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040;
+  }
+
+  a:hover {
+    p {
+      color: map-get($foundation-palette, primary);
+    }
+  }
+}
+
+/*termina portafolio*/
+
+
+/*aviso*/
+
+.aviso{
+  background-color: grey;
+font-family: arial;
+font-size-adjust: small;
+font-variant: small-caps;
+}
+/* footer*/
+
+/*termina footer*/
