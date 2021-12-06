@@ -3,8 +3,8 @@ function Cookies(functions) {
   const save = document.querySelector('.cookies-save');
 
   function getFormPref() {
-    const inputs = Array.from [document.querySelectorAll('[data-function]')];
-    console.log(inputs);
+    const inputs = Array.from [...document.querySelectorAll('[data-function]')];
+    console.log (inputs);
   }
 
 function handleSave() {
