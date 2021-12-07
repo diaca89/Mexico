@@ -11,7 +11,6 @@
 
   <!-- foundation-prototype.min.css: Compressed CSS with prototyping classes -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-prototype.min.css" integrity="sha256-BiKflOunI0SIxlTOOUCQ0HgwXrRrRwBkIYppEllPIok=" crossorigin="anonymous">
-
   <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
   <!--Estilo personalizado-->
@@ -25,20 +24,40 @@
 
 <body>
 
-  <div clas="cookies container">
-    <div class="cookies content">
-      <p>Permiso de uso de cookies</p>
-      <div class="cookies-pref">
-        <label><input type="check box" cheked data-funtion="analytics">Analisis</label>
-        <label><input type="check box" cheked data-funtion>Marketing</label>
-      </div>
-      <button class="cookies-save"> Guardar y continuar</button>
-    </div>
-
     <!-- Inicia mi header-->
     <span class="fr">Français</span>
     <input type="checkbox" class="check">
     <span class="es">Espagnol</span>
+
+    <div class="wrapper">
+       <img src= "img/cookie.png">
+       <div class="content">
+         <header>Nous utilisons de Cookies</header>
+         <p>En porsuivant votre navigation sur les site et applications, vous acceptez l'utilisation de cookiesnous permettant d'optimiser votre expérience utilisateur.</p>
+         <div class="buttons">
+           <button class="item">Accepter</button>
+           <a href="#" class="item">Savoir Plus</a>
+         </div>
+       </div>
+     </div>
+
+     <script>
+       const cookieBox = document.querySelector(".wrapper"),
+       acceptBtn = cookieBox.querySelector("button");
+
+       acceptBtn.onclick = ()=>{
+         //setting cookie for 1 month, after one month it'll be expired automatically
+         document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+         if(document.cookie){ //if cookie is set
+           cookieBox.classList.add("hide"); //hide cookie box
+         }else{ //if cookie not set then alert an error
+           alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+         }
+       }
+       let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+       //if cookie is set then hide the cookie box else show it
+       checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+     </script>
 
     <div class="hero-section">
       <div class="hero-section-text">
@@ -46,6 +65,7 @@
         <h5>Mexico Lindo y Querido</h5>
       </div>
     </div>
+
     <!--termina mi header-->
     <!--inicia mi barra de navegacion-->
     <nav class="fondo">
@@ -678,6 +698,7 @@
         <span aria-hidden="true">&times;</span>
       </button>
   </div>
+
   <!--termina aviso de privacidad-->
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
   <script src='https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js' integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>

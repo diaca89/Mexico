@@ -13,31 +13,55 @@
 <!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation-rtl.min.css" integrity="sha256-F+9Ns8Z/1ZISonBbojH743hsmF3x3AlQdJEeD8DhQsE=" crossorigin="anonymous">
 <!--Estilo personalizado-->
+
 <link rel="stylesheet" href="../css/style.css">
 <!--libreria font-awesome-->
+
 <li rel=stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!--instalar fuente google-->
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap" rel="stylesheet">
-  </head>
+
+ <link rel="stylesheet" href="https://www.codeithub.com/cookie-consent-box-using-html-css-javascript/style.css">
+
+   </head>
 
   <body>
-
-    <div clas="cookies container">
-      <div class="cookies content">
-        <p>Permiso de uso de cookies</p>
-        <div class="cookies-pref">
-          <label><input type="check box" cheked data-funtion= "analytics">Analisis</label>
-        <label><input type="check box" cheked
-          data-funtion>Marketing</label>
-        </div>
-        <button class="cookies-save"> Guardar y continuar</button>
-      </div>
 
     <!-- Inicia mi header-->
     <span class="fr">Frances</span>
     <input type="checkbox" class="check" checked>
     <span class="es">Español</span>
+
+    <div class="wrapper">
+       <img src="../img/cookie.png">
+       <div class="content">
+         <header>Utilizamos Cookies</header>
+         <p>Al continuar utilizando los sitios y aplicaciones, acepta el uso de cookies que nos permiten optimizar su experiencia de usuario.</p>
+         <div class="buttons">
+           <button class="item">Aceptar</button>
+           <a href="#" class="item">Detalles</a>
+         </div>
+       </div>
+     </div>
+
+     <script>
+       const cookieBox = document.querySelector(".wrapper"),
+       acceptBtn = cookieBox.querySelector("button");
+
+       acceptBtn.onclick = ()=>{
+         //setting cookie for 1 month, after one month it'll be expired automatically
+         document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+         if(document.cookie){ //if cookie is set
+           cookieBox.classList.add("hide"); //hide cookie box
+         }else{ //if cookie not set then alert an error
+           alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+         }
+       }
+       let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+       //if cookie is set then hide the cookie box else show it
+       checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+     </script>
 
     <div class="hero-section">
       <div class="hero-section-text">
@@ -45,6 +69,7 @@
         <h5>Mexico Lindo y Querido</h5>
       </div>
     </div>
+
     <!--termina mi header-->
     <!--inicia mi barra de navegacion-->
     <nav class="fondo">
